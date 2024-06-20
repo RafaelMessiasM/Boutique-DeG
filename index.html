@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link href="resposive.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Display:ital@0;1&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/6c14e74950.js" crossorigin="anonymous"></script>
+    <title>Boutique D&G</title>
+</head>
+<body>
+    <header>
+        <div class="primeira-linha">
+            <ul class=" primeira-linha-escritas">
+                <a href="#"><i class="fa-solid fa-repeat"> Troca facil </i></a>
+                <a href="#"><i class="fa-solid fa-credit-card"> Ate 10x sem juros </i></a>
+                <a href="#"> <i class="fa-solid fa-user"> Vendedor Online </i></a>
+                <a href="#"> <i class="fa-solid fa-dollar-sign"> Resgate seu Cashback</i> </a>
+            </ul>
+        </div>
+        <div class="principal-cabeçalho">
+            <div id="logo">
+                 <h1>  Boutique D&G </h1>
+            </div>
+            <div id="icones">
+                
+                <div id="input1">
+                   <input type="text" placeholder="O que voce esta procurando?">
+                   <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div id="icones2">
+
+                     <a href="#"> <i class="fa-regular fa-user"></i></a>
+                     <a href="#"><i class="fa-regular fa-heart"></i></a>
+                     <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+            
+            </div>
+
+   
+        </div>
+        
+        <div class="mymenu">
+            <div class="menu" id="mynav" >
+                <a href="#" class="navmenufechar" onclick="closeNav()"> &times;</a>
+                <ul class="menuuuu">
+                    <a href="#"><h3> NOVIDADES </h3></a>
+                    <a href="#"><h3> LINHOS </h3></a>
+                    <a href="#"><h3> MASCULINO </h3></a>
+                    <a href="#"><h3> FEMININO </h3></a>
+                    <a href="#"><h3> FEMININO </h3></a>
+                    <a href="#"><h3> SELARIA </h3></a>
+                    <a href="#"><h3> PREMIUM </h3></a>
+                    <a href="#"><h3> CAMPANHAS</h3></a>
+                    <a href="#"><h3 id="preenchido"> LAST CHANCE </h3></a>
+
+                    <ul id="opc">
+                        <a href="#"><i class="fa-solid fa-repeat"> Troca facil </i></a>
+                        <a href="#"><i class="fa-solid fa-credit-card"> Ate 10x sem juros </i></a>
+                        <a href="#"> <i class="fa-solid fa-user"> Vendedor Online </i></a>
+                        <a href="#"> <i class="fa-solid fa-dollar-sign"> Resgate seu Cashback</i> </a>
+                    </ul>
+
+                    
+                </ul>
+
+            </div>
+            
+            <button class="navmenu"  onclick="openNav()">
+                <i class="fa-solid fa-list"  id="list"></i>
+            </button>
+
+            <div id="cupom">
+                <h3 id="cupom1"> GARANTA SUAS JAQUETAS FAVORITAS: R$ 100 OFF EM JAQUETAS COM CUPOM: RM12C</h3>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="carrossel">
+            <div class="container">
+                <img src="img/ba1.jpg" alt="baner1">
+                <img src="img/ba2.jpg" alt="baner2">
+                <img src="img/ba3.jpg" alt="baner3">
+                <img src="img/ba4.jpg" alt="baner4">
+                <img src="img/ba5.jpg" alt="baner5">
+            </div>
+        </div>
+
+        <div id="home">
+            <a href="#"> HOME</a>
+            <h2> | </h2>
+            <a href="#"> LISTAS </a>
+        </div>
+
+        <div class="select">
+            <select name="filtrar por" id="filtrar">
+                <option value="filtrar"> FILTRAR POR </option>
+                <option value="filtrar"> COR</option>
+                <option value="filtrar"> TAMANHO </option>
+                <option value="filtrar"> GENERO </option>
+            </select>
+            <select name="lançamentos" id="lançamentos" >
+                <option value="lançamentos"> LANÇAMENTOS</option>
+                <option value="lançamentos"> CONJUNTO LINHO AZUL</option>
+                <option value="lançamentos"> CAMISA NIKE</option>
+                <option value="lançamentos"> CONJUNTO CROPPED E SHORT ALFAIATARIA</option>
+            </select>
+        </div>
+
+        
+    </main>
+
+    <section>
+        <div class="containerprodutos">
+            <div class="produtos">
+                <div class="vestuario">
+                    <ul>
+                        <li> 
+                          <img src="img/9d926c9955f89bc3df9ef7248b635169.jpg">
+                          <h3>Conjunto Cropped e Short 2 Modelos em Tecido com Elastano Novo</h3>
+                          <div class="preço">
+                            <h2> <s>R$ 390,00</s>  R$ 270,00
+                                <p>5x <i>de</i> R$ 54,00</p> 
+                            </h2>
+                          </div>
+                          <button id="comprar">Comprar</button>
+                
+                        </li>
+                        <li>
+                            <img src="img/415451-65-310-430-0qV9KuLdqi8.jpg" alt="">
+                            <h3>conjunto linho azul</h3>
+                            <div class="preço">
+                                <h2> <s>R$ 280,00</s>  R$ 189,00
+                                    <p>5x <i>de</i> R$ 37,80</p> </h2> 
+                            </div>
+                            <button id="comprar">Comprar</button>
+                        </li>
+                        <li>
+                            <img src="img/Conjunto Cropped e short alfaiataria .jpeg" alt="">
+                            <h3>Conjunto Cropped e short alfaiataria</h3>
+                            <div class="preço">
+                                <h2> <s>R$ 320,00</s>  R$ 229,00
+                                    <p>5x <i>de</i> R$ 45,80</p> </h2>
+                            </div>
+                            <button id="comprar">Comprar</button>
+                        </li>
+                        
+                    </ul>
+
+                    <ul>
+                        <li>
+                          <img src="img/Conjunto Short e Cropped Amarração.jpg" alt="">
+                          <h3>Conjunto Short e Cropped Amarração</h3>
+                          <div class="preço">
+                            <h2> <s>R$ 389,00</s>  R$ 259,00
+                                <p>5x <i>de</i> R$ 51,80</p> </h2>
+                          </div>
+                          <button id="comprar">Comprar</button>
+                        </li>
+                        <li>
+                            <img src="img/415443-65-auto-auto-8UQuNg-p12Q.jpg" alt="">
+                            <h3>conjunto linho branco</h3>
+                            <div class="preço">
+                                <h2> <s>R$ 280,00</s>  R$ 189,00
+                                    <p>5x <i>de</i> R$ 37,80</p> </h2>
+                            </div>
+                            <button id="comprar">Comprar</button>
+                        </li>
+                        <li>
+                            <img src="img/03d93638a71cee137ab4e13560052868.jpg" alt="">
+                            <h3>Conjunto Cropped e Short 2 Modelos em Tecido com Elastano Novo</h3>
+                            <div class="preço">
+                                <h2> <s>R$ 320,00</s>  R$ 229,00
+                                    <p>5x <i>de</i> R$ 45,80</p> </h2>
+                            </div>
+                            <button id="comprar">Comprar</button>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                          <img src="img/jeans.jpg" alt="">
+                          <h3> Camisa Jeans Masculina Jaqueta Manga Longa</h3>
+                          <div class="preço">
+                            <h2> <s>R$ 399,00</s>  R$ 320,00
+                                <p>5x <i>de</i> R$ 64,00</p> </h2>
+                        </div>
+                          <button id="comprar">Comprar</button>
+                        </li>
+                        <li>
+                            <img src="img/jeans1.jpg" alt="">
+                            <h3> Camisa Jeans Masculina Manga Curta Slim</h3>
+                            <div class="preço">
+                                <h2> <s>R$ 350,00</s>  R$ 299,00
+                                    <p>5x <i>de</i> R$ 59,80</p> </h2>
+                            </div>
+                            <button id="comprar">Comprar</button>
+                        </li>
+                        <li>
+                            <img src="img/nike.jpg" alt="">
+                            <h3> Camisa nike</h3>
+                            <div class="preço">
+                                <h2> <s>R$ 189,00</s>  R$ 120,00
+                                    <p>5x <i>de</i> R$ 24,00</p> </h2>
+                            </div>
+                            <button id="comprar">Comprar</button>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                          <img src="img/jeanscinza.jpg" alt="">
+                          <h3>Camisa Jeans Masculina grey</h3>
+                          <div class="preço">
+                            <h2> <s>R$ 399,00</s>  R$ 320,00
+                                <p>5x <i>de</i> R$ 64,00</p> </h2>
+                         </div>
+                          <button id="comprar">Comprar</button>
+                        </li>
+                        <li>
+                            <img src="img/jeanscomum.jpg" alt="">
+                            <h3>Camisa Jeans Rasgada</h3>
+                            <div class="preço">
+                                <h2> <s>R$ 399,00</s>  R$ 320,00
+                                    <p>5x <i>de</i> R$ 64,00</p> </h2>
+                            </div>
+                            <button id="comprar">Comprar</button>
+                        </li>
+                        <li>
+                            <img src="img/jeansrosa.jpg" alt="">
+                            <h3>Camisa Jeans Masculina pink</h3>
+                            <div class="preço">
+                                <h2> <s>R$ 399,00</s>  R$ 320,00
+                                    <p>5x <i>de</i> R$ 64,00</p> </h2>
+                            </div>
+                            <button id="comprar">Comprar</button>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="avançar">
+                <button id="botaoavançar" onclick="um()"> 1 </button>
+                <button id="botaoavançar" onclick="dois()"> 2 </button>
+                <button id="botaoavançar" onclick="tres()"> 3 </button>
+            </div>
+        </nav>
+    </section>
+
+    <div class="containerirnformaçoes">
+        <div class="containerinfo">
+            <div class="cardinfo">
+                <h2>Aproveite a liquidação D&G com vantagens exclusivas!</h2>
+                <h5>Se você é amante da moda e está sempre em busca de peças sofisticadas de alta qualidade para o seu guarda-roupa, a liquidação D&G é um evento que você não pode perder.
+
+                    Por isso, nessa seção, exploramos ao máximo essa oportunidade de compra única! Navegue e encontre vantagens que só a liquida D&G oferece. Prepare-se para descobrir como renovar suas roupas de maneira inteligente e elegante!</h5>
+            
+                <h2>Quais as vantagens da liquidação D&G?</h2>
+                <h5>A liquidação de roupas luxuosas assinadas pela D&G oferece uma série de vantagens, incluindo peças da moda masculina e feminina com até 40% OFF. Sendo, portanto, a oportunidade perfeita para renovar o visual com vestuário elegante em estilo atemporal.
+
+                    Nossas coleções contam com vestidos confeccionados em linho e algodão, material que assegura conforto e alta durabilidade às peças. Ainda, a liquida apresenta roupas com descontos progressivos.
+                    
+                    Para as roupas masculinas, por exemplo, é possível comprar 2 peças com 10% OFF, 3 peças com 15% OFF e 4 ou mais peças com 20%. O cupom é válido apenas para a seção de produtos da liquida de D&G!</h5>
+           
+                <h2>Como aproveitar a liquidação D&G?</h2>
+                <h5>Para desfrutar do melhor das roupas femininas, é importante manter sua lista de desejos atualizada. Dessa forma, essa organização ajudará você a aproveitar os descontos em modelos que realmente precisa ou está de olho.
+
+                    Ainda, fique atento aos produtos exclusivos da Loja On-line Oficial. Disponibilizamos cupons de descontos únicos, sem falar no frete grátis para todo o Brasil em pedidos acima de R$ 499,00.
+                    
+                    Confira as ofertas da liquidação D&G e aproveite para renovar o seu guarda-roupa com saias, t-shirt masculina e muito mais a preços incríveis!
+                    
+                    Aproveite as possibilidades de pagamento facilitado em até 5x sem juros no cartão e troca fácil. Além disso, conte com atendimento personalizado com nossos vendedores on-line. Shop now!</h5>
+            </div>
+            <button id="ler"> LER MAIS</button>
+        </div>
+    
+    </div>
+
+    <div class="containerredes">
+        <div class="containerredes1">
+            <div class="assine">
+                <h4>ASSINE NOSSA
+                    NEWSLETTER E NÃO
+                    PERCA AS NOVIDADES!
+                </h4>
+            </div>
+            <div class="tamanhoinput">
+                  <input id="email" placeholder="INSIRA AQUI SEU EMAIL">
+                  <button id="ENVIAR">ENVIAR</button>
+            </div>
+
+        </div>
+
+        <div class="redes2">
+            <div>
+                <h4 id="siga">SIGA A D&G</h4>
+            </div>
+            <div class="redessociais"> 
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="containerfooter">
+            <div class=" coluna1">
+                <h3>INSTITUCIONAL</h3>
+                <h6>Histórias</h6>
+                <h6>História da Marca</h6>
+                <h6>Expedições D&G – Betim</h6>
+                <h6>Expedições D&G – Belo Horizonte</h6>
+            </div>
+            <div class="coluna2">
+                <h3>AJUDA</h3>
+                <h6>Troca Fácil</h6>
+                <h6>Troca e Devolução</h6>
+                <h6>Política de Privacidade</h6>
+                <h6>Seja um franqueado</h6>
+                <h6>Central de Atendimento</h6>
+            </div>
+
+            <div class="coluna3">
+                <h3>ATENDIMENTO</h3>
+                <h6>Central de Atendimento</h6>
+                <h6>Fale Conosco</h6>
+                <h6>Nossas Lojas</h6>
+                <h6>Minha Conta</h6>
+            </div>
+
+            <div class="pagamento">
+                <h2>Formas de pagamento</h2>
+                <div class="cartão">
+                    <img src="img/bandeiras.png" alt="" id="bandeiras">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="produçao">
+            <h4>Site Produzido por Rafael Messias</h4>
+            <h4>Sem fins lucrativos</h4>
+            <h4>Belo Horizonte</h4>
+            <h4>2024</h4>
+        </div>
+    </footer>
+    
+
+
+    <script src="script.js"> </script>
+</body>
+</html>
